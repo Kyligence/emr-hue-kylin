@@ -1,0 +1,31 @@
+[
+  {
+    "Classification": "hue-ini",
+    "Properties": {},
+    "Configurations": [
+      {
+        "Classification": "notebook",
+        "Properties": {
+          "dbproxy_extra_classpath": "/opt/kylin_jdbc/kylin-jdbc-2.2.0.jar"
+        },
+        "Configurations": [
+          {
+            "Classification": "interpreters",
+            "Properties": {},
+            "Configurations": [
+              {
+                "Classification": "kylin",
+                "Properties": {
+                  "name": "kylin JDBC",
+                  "interface": "jdbc",
+                  "options": '{"url": "jdbc:kylin://<host>:<port>/<project>", "driver": "org.apache.kylin.jdbc.Driver", "user": "<username>", "password": "<password>"}'
+                },
+                "Configurations": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
