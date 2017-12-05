@@ -18,7 +18,7 @@
                 "Properties": {
                   "name": "kylin JDBC",
                   "interface": "jdbc",
-                  "options": '{"url": "jdbc:kylin://<host>:<port>/<project>", "driver": "org.apache.kylin.jdbc.Driver", "user": "<username>", "password": "<password>"}'
+                  "options": "{\"url\": \"jdbc:kylin://<host>:<port>/<project>\", \"driver\": \"org.apache.kylin.jdbc.Driver\", \"user\": \"<username>\", \"password\": \"<password>\"}"
                 },
                 "Configurations": []
               }
