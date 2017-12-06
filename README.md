@@ -132,7 +132,7 @@ docker run -itd -p 8888:8888 --name hue hue-demo
 
 Hue is now up and running in your localhost:8888
 
-![Screen Shot 2017-11-15 at 3.34.20 PM](Screen Shot 2017-11-15 at 3.34.20 PM.png)
+![Screen Shot 2017-11-15 at 3.34.20 PM](https://github.com/Kyligence/emr-hue-kylin/blob/master/Screen Shot 2017-11-15 at 3.34.20 PM.png|alt=octocat)
 
 You can now query kylin from Hue. ![Screen Shot 2017-11-15 at 2.55.53 PM](Screen Shot 2017-11-15 at 2.55.53 PM.png)
 
