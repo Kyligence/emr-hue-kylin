@@ -132,7 +132,7 @@ docker run -itd -p 8888:8888 --name hue hue-demo
 
 Hue is now up and running in your localhost:8888
 
-![Screen Shot 2017-11-15 at 3.34.20 PM](/Users/jingke.he/Desktop/Hue/Screen Shot 2017-11-15 at 3.34.20 PM.png)
+![Screen Shot 2017-11-15 at 3.34.20 PM](Screen Shot 2017-11-15 at 3.34.20 PM.png)
 
 You can now query kylin from Hue. ![Screen Shot 2017-11-15 at 2.55.53 PM](Screen Shot 2017-11-15 at 2.55.53 PM.png)
 
@@ -205,7 +205,7 @@ aws emr create-cluster --name "HUE Cluster" --release-label emr-5.10.0 \
 
 3. After the cluster is in "Waiting" status, open web browser at: http://<public_dns_of_master>:8888 , you will see the cluster with hue is ready.
 
-![EMR CLUSTER IS READY](./Screen Shot 2017-12-05 at 6.15.36 PM.png)
+![EMR CLUSTER IS READY](Screen Shot 2017-12-05 at 6.15.36 PM.png)
 
 ### Conclusion
 
