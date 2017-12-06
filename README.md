@@ -1,11 +1,11 @@
 ## Using Hue to interact with Apache Kylin
 
-###What is Apache Kylin
+### What is Apache Kylin
 
 Apache Kylin is a leading open-source online analytical processing (OLAP) engine that’s built for interactive
 analytics for Big Data. It provides an ANSI-SQL interface and multi-dimensional OLAP for massive datasets. It supports consuming data in batch and streaming and offers sub-second query latency on petabyte-scale dataset. It seamlessly integrates with BI tools via ODBC driver, JDBC driver, and REST API.
 
-###What is Hue
+### What is Hue
 
 Hue is a very easy-to-use SQL editor that allows you to query Hadoop-based service using a user-friendly web-based interface. Hue makes access big data on Hadoop easier for Analysts as SQL is the most familiar language analysts could use.
 
@@ -140,14 +140,14 @@ You can now query kylin from Hue. ![Screen Shot 2017-11-15 at 2.55.53 PM](Screen
 
 ![Screen Shot 2017-11-15 at 3.01.53 PM](Screen Shot 2017-11-15 at 3.01.53 PM.png)
 
-###Deploy Hue with Apache Kylin on AWS
+### Deploy Hue with Apache Kylin on AWS
 Below content will guide you how to deploy Hue with Apache Kylin on AWS EMR.
 
 #### Install Apache Kylin on AWS EMR
 
 You may refer to [this document](http://kylin.apache.org/docs21/install/kylin_aws_emr.html) to install Apache Kylin on AWS EMR.
 
-####Install Hue with Apache Kylin configured on AWS EMR
+#### Install Hue with Apache Kylin configured on AWS EMR
 
 After you installed Apache Kylin on AWS EMR, you can now deploy Hue on AWS EMR with Kylin configured easily using our bootstrap file. 
 
